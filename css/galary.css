@@ -4,51 +4,53 @@ background-image: url("https://st2.depositphotos.com/9471600/12268/i/950/deposit
 }
 
 
-header{
+.page_header{
+    position: relative;
     background: #DAF7A6;
-    padding: 20px;  
-    text-align: right;
-    margin: 10px;
-    border: 2px solid #757793;
-  }
-
-  .style_a{
+    padding: 40px;  
+    /*text-align: center;*/
+    margin: 30px;
+    border: 4px solid azure;
     font-weight: bold;
-    color: #01bdbe;
     text-decoration: none;
     font-size: 20px;
     color: #273746;
-   }
+}  
+    
+ 
+.style_a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color: #273746;
+    float: right;
+   
+}
+.style_a1{
+    position: absolute;
+    font-size: 35px;
+    position: absolute;
+    left: 500px;
+    background: #FCF3CF;
+    top: 5px;
+    padding: 15px;
+  
+    
+}
 
 .main_div{
-    border: 2px solid #757793; 
+    border: 2px solid azure; 
     color: #273746  ;
     font-size: 30px;
-    width: 600px;
-    height: 700px;
+    width: 400px;
+    height: 450px;
     background: #DAF7A6    ;
     margin: 0 auto;
-}  
-
-.main_div1{
-    /*border: 2px solid #757793;*/ 
-    margin: 30px;
-}  
-
-.main_div2{
-    /*border: 2px solid #757793;*/ 
-    margin: 30px;
-}  
-
-.main_div3{
-    /*border: 2px solid #757793;*/ 
-    margin: 30px;
 }  
 
 img{
     width: 40%;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    border: 2px solid #757793;
+    border: 5px solid azure;
+    margin: 10px;
 }
